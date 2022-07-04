@@ -1,0 +1,28 @@
+//Github Repository tag: content_info
+
+//<Structures>:
+//GR - Game release
+//1
+//> Minimum installer version - int
+//> Download link - string
+//> Version - string
+//> Tag - string
+
+//IR - Installer release
+//1
+//> Download link - string
+//> VersionCode - int
+
+//Note: PLEASE KEEP ALWAYS SAME STRUCTURE FOR INSTALLER. ADDING NEW STRUCTURE FOR INSTALLER CAN RESULT INTO COMPLICATION.
+//Note: ALWAYS ADD NEW VERSIONS AT THE TOP OF THE LIST.
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-01-001-__AV/StateOfWarAnnihilation.zip
+01-01-001-__AV
+Alpha
+
+IR
+1
+null
+1
