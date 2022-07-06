@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SOWAS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOWAS_jar</output-path>
+    <root id="archive" name="SOWAS.jar">
+      <element id="module-output" name="SOWAS" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mslinks.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
