@@ -34,6 +34,12 @@ https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-03
 01-03-001-__AV
 Alpha
 
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
+01-04-001-__AV
+Alpha
+
 IR
 1
 null
