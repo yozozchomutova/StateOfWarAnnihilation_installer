@@ -1,0 +1,18 @@
+//Version 1:
+//[ - start
+//Day
+//Month
+//Year
+//Title
+//Description
+//Image Base64 (use null for empty image)
+//] - end
+
+[
+10
+7
+2022
+News-log launch
+If you see this message, It's good, because you know news-log service is working for you.
+null
+]
