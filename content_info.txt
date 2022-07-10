@@ -8,24 +8,13 @@
 //> Version - string
 //> Tag - string
 
-//IR - Installer release
-//1
-//> Download link - string
-//> VersionCode - int
-
 //Note: PLEASE KEEP ALWAYS SAME STRUCTURE FOR INSTALLER. ADDING NEW STRUCTURE FOR INSTALLER CAN RESULT INTO COMPLICATION.
 //Note: ALWAYS ADD NEW VERSIONS AT THE TOP OF THE LIST.
 
 GR
 1
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-01-001-__AV/StateOfWarAnnihilation.zip
-01-01-001-__AV
-Alpha
-
-GR
-1
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-02-001-__AV/StateOfWarAnnihilation.zip
-01-02-001-__AV
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
+01-04-001-__AV
 Alpha
 
 GR
@@ -36,11 +25,12 @@ Alpha
 
 GR
 1
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-01-04-001-__AV
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-02-001-__AV/StateOfWarAnnihilation.zip
+01-02-001-__AV
 Alpha
 
-IR
+GR
 1
-null
-1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-01-001-__AV/StateOfWarAnnihilation.zip
+01-01-001-__AV
+Alpha
