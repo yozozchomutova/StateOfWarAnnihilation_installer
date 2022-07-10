@@ -70,3 +70,4 @@ GR
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-01-001-__AV/StateOfWarAnnihilation.zip
 01-01-001-__AV
 Alpha
+-Initial
