@@ -14,6 +14,12 @@
 GR
 2
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
+03-05-001-__AV
+Alpha
+
+GR
+2
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
 03-04-001-__AV
 Alpha
 
