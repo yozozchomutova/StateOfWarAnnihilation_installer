@@ -12,58 +12,18 @@
 //Note: ALWAYS ADD NEW VERSIONS AT THE TOP OF THE LIST.
 
 GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-03-05-001-__AV
-Alpha
-
-GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-03-04-001-__AV
-Alpha
-
-GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-03-03-001-__AV
-Alpha
-
-GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-03-02-001-__AV
-Alpha
-
-GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-03-01-001-__AV
-Alpha
-
-GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-02-02-001-__AV
-Alpha
-
-GR
-2
-https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
-02-01-001-__AV
-Alpha
-
-GR
 1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
 01-04-001-__AV
 Alpha
+-Air Forces finally have their icons.\n-Level-loading panel is longer\n-Level editor fog decreased => Better visibility in larger maps.\n-All map objects and units outside borders won't be considered while saving level.\n-Press **[H]** to hide/show yellow box in level editor.\n-Editors yellow box has breathing effect
 
 GR
 1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-03-001-__AV/StateOfWarAnnihilation.zip
 01-03-001-__AV
 Alpha
+-Improved level saving system:\n->Game can load older version of levels... (So you don't have to every time recreate levels for newer versions) **But also remember: Very old versions of levels, will get obsolete over time to avoid having ton of level-loading functions for every version... So keep your levels up to date by simply loading a resaving them... (I will be always telling ahead, which versions of level are getting unsupported)... To convert very old, obsoleted levels, you have to install multiple SOWs and in every SOW convert level to newer version...**\n-> Difficulty is now measured in percentage.\n-> Difficulty is being calculated automatically by simple algorithm.\n-> Added layer of compression in newly saved levels (ex. Drop from **9,221 KB** to **2,827 KB**)\n-New map object: Cactus\n-New texture for surface: Sand rocks\n-Every level has default icon\n-All outdated levels are marked with red text
 
 GR
 1
