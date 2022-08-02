@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-01-001-__AV/StateOfWarAnnihilation.zip
+02-01-001-__AV
+Alpha
+-You can now load and play your levels in Singleplayer menu.\n-Replacing old news log with newer one. (Still in progress)\n-Added ZIP compression for your levels. (Empty level: Dropping from 2,827 Kb to only 11 Kb)... But also, more advanced terrain = bigger file\n-Fixed bug, where loading level wouldn't update icon in level properties window.\n-Fixed bug, where loading level wouldn't update terrain size in level properties window.\n-Fixed bug, where team stats weren't saved properly. (Money, Research points, bomber count, etc.)\n-Added reset button for level icon. (Level properties window)\n-Map objects finally have name and icon. (Trees, Cactuses, etc.)\n-All buildings have idle animation.\n-Game settings allowed:\n-> Choose UI layout for air forces\n-> Choose game camera type
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
 01-04-001-__AV
 Alpha
