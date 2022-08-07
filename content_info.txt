@@ -13,6 +13,21 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-02-002-__AV/StateOfWarAnnihilation.zip
+02-02-002-__AV
+Alpha
+-Agreement: Added more people in credits\n-Level Editor: You cannot place unit colliding with other units\n-Level Editor: Added UI and chill environmental sounds for better atmosphere.\n-Main Menu: Changelog disabled for now.\n-Game: Unit factory buildings are smoking.\n-Game: UI gets colored according to team.
+-Game: Building tower buttons: only allowed towers will have their button visible...\n-Game: Gold mine: Gives +10 gold for every cycle.\n-Game: Research station: Gives +2 research points for every cycle.\n-Game: **Money** and **Research points** texts are now updated in real-time.\n-Game: Time warps: 0 (pause) and 1 (unpause/run) are now allowed and can be used.
+
+GR
+3
+https://bit.ly/3dc6HhA
+EXPERIMENTAL_V1
+Alpha
+-Bitly link test
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-01-001-__AV/StateOfWarAnnihilation.zip
 02-01-001-__AV
 Alpha
