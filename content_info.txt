@@ -22,9 +22,9 @@ Alpha
 GR
 3
 https://bit.ly/3dc6HhA
-EXPERIMENTAL_V1
+00-01-000-__AV
 Alpha
--Bitly link test
+-Bitly link test\n-EXPERIMENTAL
 
 GR
 1
