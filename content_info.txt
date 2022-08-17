@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-03-002-__AV/StateOfWarAnnihilation.zip
+02-03-002-__AV
+Alpha
+-Game: Time warps: 2 (2x speed) and 3 (4x speed) are now allowed and can be used. (4x speed may be laggy. This issue is going to be resolved in the future)\n-Game: You can now build towers. (You need to have money for it, it needs to be close to other your building/tower, it can't collide with any object)\n-Game + Level Editor: Increased performance, when placing units\n-Game + Level Editor: Added effect, when camera is underwater.\n-Game: Fixed bug where camera effects (known as post-processing) were not working.\n-Game: Player camera automatically teleports to any owning command center. If your team doesn't have any, your camera teleports to the center of the map.\n-Game: Command centers can now produce SMF. \n-Game: SMF has basic idle AI\n-Game + Level Editor: Towers & Tanks are smaller (and have smaller hitboxes) -> so you can place them closer to each other.\n-Game: Units & Towers can now act in IDLE state. (Random head rotations)\n-Game: Cursor now changes:\n-> Unit selection or Building tower = Selecting cursor\n-> Rotating camera = Camera cursor
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-02-002-__AV/StateOfWarAnnihilation.zip
 02-02-002-__AV
 Alpha
