@@ -8,21 +8,62 @@
 //> Version - string
 //> Tag - string
 
-//IR - Installer release
-//1
-//> Download link - string
-//> VersionCode - int
-
 //Note: PLEASE KEEP ALWAYS SAME STRUCTURE FOR INSTALLER. ADDING NEW STRUCTURE FOR INSTALLER CAN RESULT INTO COMPLICATION.
 //Note: ALWAYS ADD NEW VERSIONS AT THE TOP OF THE LIST.
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-03-002-__AV/StateOfWarAnnihilation.zip
+02-03-002-__AV
+Alpha
+-Game: Time warps: 2 (2x speed) and 3 (4x speed) are now allowed and can be used. (4x speed may be laggy. This issue is going to be resolved in the future)\n-Game: You can now build towers. (You need to have money for it, it needs to be close to other your building/tower, it can't collide with any object)\n-Game + Level Editor: Increased performance, when placing units\n-Game + Level Editor: Added effect, when camera is underwater.\n-Game: Fixed bug where camera effects (known as post-processing) were not working.\n-Game: Player camera automatically teleports to any owning command center. If your team doesn't have any, your camera teleports to the center of the map.\n-Game: Command centers can now produce SMF. \n-Game: SMF has basic idle AI\n-Game + Level Editor: Towers & Tanks are smaller (and have smaller hitboxes) -> so you can place them closer to each other.\n-Game: Units & Towers can now act in IDLE state. (Random head rotations)\n-Game: Cursor now changes:\n-> Unit selection or Building tower = Selecting cursor\n-> Rotating camera = Camera cursor
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-02-002-__AV/StateOfWarAnnihilation.zip
+02-02-002-__AV
+Alpha
+-Agreement: Added more people in credits\n-Level Editor: You cannot place unit colliding with other units\n-Level Editor: Added UI and chill environmental sounds for better atmosphere.\n-Main Menu: Changelog disabled for now.\n-Game: Unit factory buildings are smoking.\n-Game: UI gets colored according to team.
+-Game: Building tower buttons: only allowed towers will have their button visible...\n-Game: Gold mine: Gives +10 gold for every cycle.\n-Game: Research station: Gives +2 research points for every cycle.\n-Game: **Money** and **Research points** texts are now updated in real-time.\n-Game: Time warps: 0 (pause) and 1 (unpause/run) are now allowed and can be used.
+
+GR
+3
+https://bit.ly/3dc6HhA
+00-01-000-__AV
+Alpha
+-Bitly link test\n-EXPERIMENTAL
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-01-001-__AV/StateOfWarAnnihilation.zip
+02-01-001-__AV
+Alpha
+-You can now load and play your levels in Singleplayer menu.\n-Replacing old news log with newer one. (Still in progress)\n-Added ZIP compression for your levels. (Empty level: Dropping from 2,827 Kb to only 11 Kb)... But also, more advanced terrain = bigger file\n-Fixed bug, where loading level wouldn't update icon in level properties window.\n-Fixed bug, where loading level wouldn't update terrain size in level properties window.\n-Fixed bug, where team stats weren't saved properly. (Money, Research points, bomber count, etc.)\n-Added reset button for level icon. (Level properties window)\n-Map objects finally have name and icon. (Trees, Cactuses, etc.)\n-All buildings have idle animation.\n-Game settings allowed:\n-> Choose UI layout for air forces\n-> Choose game camera type
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-04-001-__AV/StateOfWarAnnihilation.zip
+01-04-001-__AV
+Alpha
+-Air Forces finally have their icons.\n-Level-loading panel is longer\n-Level editor fog decreased => Better visibility in larger maps.\n-All map objects and units outside borders won't be considered while saving level.\n-Press **[H]** to hide/show yellow box in level editor.\n-Editors yellow box has breathing effect
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-03-001-__AV/StateOfWarAnnihilation.zip
+01-03-001-__AV
+Alpha
+-Improved level saving system:\n->Game can load older version of levels... (So you don't have to every time recreate levels for newer versions) **But also remember: Very old versions of levels, will get obsolete over time to avoid having ton of level-loading functions for every version... So keep your levels up to date by simply loading a resaving them... (I will be always telling ahead, which versions of level are getting unsupported)... To convert very old, obsoleted levels, you have to install multiple SOWs and in every SOW convert level to newer version...**\n-> Difficulty is now measured in percentage.\n-> Difficulty is being calculated automatically by simple algorithm.\n-> Added layer of compression in newly saved levels (ex. Drop from **9,221 KB** to **2,827 KB**)\n-New map object: Cactus\n-New texture for surface: Sand rocks\n-Every level has default icon\n-All outdated levels are marked with red text
+
+GR
+1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-02-001-__AV/StateOfWarAnnihilation.zip
+01-02-001-__AV
+Alpha
+-Brightness of snow texture lowered (so it won't kill your eyes now)\n-Improved Unit placing panel (for easier use)\n-Improved other level editor UI elements...\n-The sky is now moving!\n-Fixed bug, where agreement would show, even if it didn't had to...\n-When you select White team, HP bar will automatically moves to 50%... Similar case, when selecting other team colour after leaving white one -> HP bar moves to 100%
 
 GR
 1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/01-01-001-__AV/StateOfWarAnnihilation.zip
 01-01-001-__AV
 Alpha
-
-IR
-1
-null
-1
+-Initial

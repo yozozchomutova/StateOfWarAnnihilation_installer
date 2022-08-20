@@ -1,0 +1,9 @@
+//IR - Installer release
+//> VersionCode - int
+//> Download link - string
+
+//Note: ALWAYS ADD NEW VERSIONS AT THE TOP OF THE LIST.
+
+IR
+2
+https://github.com/yozozchomutova/StateOfWarAnnihilation_installer/releases/download/1.0/SOW-Anni-Installer.1.0.exe
