@@ -34,7 +34,7 @@ public final class DownloadSOWTask extends Thread {
             //1. Make folders
             goNextTask(null, Main.installingSOWPanel.task_prepareFiles);
 
-            File gameFolder = new File(folderPath + "/State of War Annihilation " + gameVersion.ver);
+            File gameFolder = new File(folderPath + "/State of War Annihilation " + gameVersion.title);
             File gameZip = new File(gameFolder.getPath() + "/_game.zip");
 
             gameFolder.mkdirs();
@@ -52,9 +52,7 @@ public final class DownloadSOWTask extends Thread {
 
             if (createDesktopShortcut) {
                 File gameExecutable = new File(gameFolder.getPath() + "/" + Main.GAME_NAME + ".exe");
-                System.out.println(gameExecutable.getPath());
                 ShellLink.createLink(gameExecutable.getPath(), FileSystemView.getFileSystemView().getHomeDirectory().getPath() + "/State of War Annihilation.lnk");
-                System.out.println("P: " + FileSystemView.getFileSystemView().getHomeDirectory().getPath());
             }
 
             //5. Cleanup zip file

@@ -11,9 +11,14 @@ import eu.jozoproductions.ui.WindowBar;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.stream.Collectors;
 
 public class WelcomePanel extends WizardPanel {
 
@@ -50,7 +55,7 @@ public class WelcomePanel extends WizardPanel {
             viewInstallerAgreement.setClickCallback(() -> {
                 try {
                     //Read file content
-                    String content = new String(Files.readAllBytes(Paths.get(getClass().getResource("/agreement.txt").toURI())), StandardCharsets.UTF_8);
+                    String content = getResourceFileAsString("agreement.txt");
                     Main.licensePanel.setValues("Installer agreement", content);
 
                     WizardPanel.ChangePanels(WelcomePanel.this, Main.licensePanel, WizardPanel.SwipeSide.LEFT);
@@ -64,21 +69,18 @@ public class WelcomePanel extends WizardPanel {
                 WizardPanel.ChangePanels(WelcomePanel.this, Main.uninstallPanel, SwipeSide.LEFT);
             });
 
-            installGame.setClickCallback(new ImageUI.ClickCallback() {
-                @Override
-                public void OnClick() {
-                    FirebaseManager.initGameVersions(() -> {
-                        //Update version select box model
-                        String[] items = new String[Cached.gameVersions.size()];
-                        for (int i = 0; i < items.length; i++) {
-                            DS_GameVersion gv = Cached.gameVersions.get(i);
-                            items[i] = gv.ver + " (" + gv.tag + ")";
-                        }
-                        Main.downloadSOWPanel.versionSelect.setModel(new DefaultComboBoxModel(items));
-                    });
+            installGame.setClickCallback(() -> {
+                FirebaseManager.initGameVersions(() -> {
+                    //Update version select box model
+                    String[] items = new String[Cached.gameVersions.keySet().size()];
+                    for (int i = 0; i < items.length; i++) {
+                        items[i] = Cached.gameVersions.keySet().toArray()[items.length - 1 - i] + "";
+                    }
+                    Main.downloadSOWPanel.majorVersionSelect.setModel(new DefaultComboBoxModel(items));
+                    Main.downloadSOWPanel.majorVersionSelect.setSelectedIndex(0);
+                });
 
-                    WizardPanel.ChangePanels(WelcomePanel.this, Main.downloadSOWPanel, SwipeSide.LEFT);
-                }
+                WizardPanel.ChangePanels(WelcomePanel.this, Main.downloadSOWPanel, SwipeSide.LEFT);
             });
 
             //Title & description
@@ -90,6 +92,17 @@ public class WelcomePanel extends WizardPanel {
             descriptionText.setFont(FontManager.exoLightFont, Font.PLAIN, 15);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    private static String getResourceFileAsString(String fileName) throws IOException {
+        ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+        try (InputStream is = classLoader.getResourceAsStream(fileName)) {
+            if (is == null) return null;
+            try (InputStreamReader isr = new InputStreamReader(is);
+                 BufferedReader reader = new BufferedReader(isr)) {
+                return reader.lines().collect(Collectors.joining(System.lineSeparator()));
+            }
         }
     }
 }

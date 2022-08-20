@@ -2,6 +2,7 @@ package eu.jozoproductions;
 
 import eu.jozoproductions.audio.AudioManager;
 import eu.jozoproductions.dialogwindow.ConfirmDLG;
+import eu.jozoproductions.firebase.FirebaseManager;
 import eu.jozoproductions.panels.*;
 import eu.jozoproductions.toppanels.BackgroundPanel;
 import eu.jozoproductions.toppanels.LoadingPanel;
@@ -28,10 +29,11 @@ public class Main implements MouseListener {
     public static final String COMPANY_NAME = "JozoProductions";
 
     public static final String APP_NAME = "SOW: Annihilation Installer";
-    public static final int VERSION_CODE = 1;
+    public static final int VERSION_CODE = 3;
     public static final String TITLE = APP_NAME + " " + VERSION_CODE;
 
     public static final String CONTENT_INFO_URL = "https://raw.githubusercontent.com/yozozchomutova/StateOfWarAnnihilation_installer/main/content_info.txt";
+    public static final String INSTALLERS_INFO_URL = "https://raw.githubusercontent.com/yozozchomutova/StateOfWarAnnihilation_installer/main/installers_info";
 
     public static final int WIN_WIDTH = 600;
     public static final int WIN_HEIGHT = 600;
@@ -49,6 +51,7 @@ public class Main implements MouseListener {
     public static DownloadSOWPanel downloadSOWPanel;
     public static UninstallPanel uninstallPanel;
     public static InstallingSOWPanel installingSOWPanel;
+    public static UpdateInstallerPanel updateInstallerPanel;
 
     //Dialogs
     public static ConfirmDLG confirmDLG;
@@ -84,6 +87,7 @@ public class Main implements MouseListener {
         downloadSOWPanel = new DownloadSOWPanel();
         uninstallPanel = new UninstallPanel();
         installingSOWPanel = new InstallingSOWPanel();
+        updateInstallerPanel = new UpdateInstallerPanel();
 
         //Init dialogs
         confirmDLG = new ConfirmDLG(frame);
@@ -108,27 +112,21 @@ public class Main implements MouseListener {
         //Listeners
         bcgPanel.addMouseListener(this);
 
-        //Init services (if agreement was agreed)
-        enableServices(getClass());
-
-        //Install
+        //Check for installer update
         try {
-            File dest = new File("src/dest.zip");
-            //InstallManager.readURLText("https://raw.githubusercontent.com/yozozchomutova/StateOfWar-SpriteExtractor/main/README.md");
-            //InstallManager.copyURLToFile(new URL("https://github.com/yozozchomutova/StateOfWar-LevelEditor/releases/download/3.0/SOW-LevelGenerator.zip"), dest);
+            String contentInfoText = InstallManager.readURLText(INSTALLERS_INFO_URL);
+            String updateURL = FirebaseManager.scanInstallersInfo(contentInfoText);
+
+            if (!updateURL.isEmpty()) {
+                updateInstallerPanel.headerTitle.setText("Installer Update: " + Cached.insttalerVersion.versionCode);
+                WizardPanel.ChangePanels(welcomePanel, updateInstallerPanel, WizardPanel.SwipeSide.LEFT);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         //Finished
         LoadingPanel.loadingBackground.setVisible(false);
-    }
-
-    public static void enableServices(Class refClass) {
-        if (Cached.servicesEnabled) //Return, if already enabled
-            return;
-
-        Cached.servicesEnabled = true;
     }
 
     @Override
