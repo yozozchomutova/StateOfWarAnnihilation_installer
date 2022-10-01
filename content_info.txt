@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-04-002-__AV/StateOfWarAnnihilation.zip
+02-04-002-__AV
+Alpha
+-Game: You can now view unit basic info (Name, Team, Health)\n-Game: You can now view unit advancier info (Making tanks, Making steppers, SMF info, etc...)\n-Game: Fixed bug where SMFs had 100x more health than they should.\n-Game: SMF slowed down.\n-Game: Air force counts are now updating\n-Menu: Added **Modules** in settings (Game parts + modification). This will work in the future\n-Fix: 02_03 & 02_04 versions of levels didn't load. Now they do.\n-Menu: Stripes animation\n-Settings: You can now set your nickname.\n-Game: You can now enter text (Enter)
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-03-002-__AV/StateOfWarAnnihilation.zip
 02-03-002-__AV
 Alpha
