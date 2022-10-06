@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-05-002-__AV/StateOfWarAnnihilation.zip
+02-05-002-__AV
+Alpha
+-Game: All 4 factories + Navigator now shows all their content and what they are producing.\n-Game: You can now upgrade units (especially tanks) LVL 1 to LVL 2 and then to LVL 3 (Every upgrade costs 500 Res. points, for now)\n-Game/Chat: You can now also press [Keypad Enter] to toggle chat.\n-Game/Chat: Temporary cheat commands (mostly used for testing & debugging):\n-> /m - Adds money\n-> /r - Adds research points\n-> /jet - Adds 10x jets\n-> /destroyer - Adds 10x destroyers\n-> /cyclone - Adds 10x cyclones\n-> /carrybus - Adds 10x carrybuses\n-> /debris - Adds 10x debrises\n-Game/Fix: WTurbine, GMachine, RStation have brighter progressbar (when hovering mouse)\n-Game/Fix: UI reseting/freezing after clicking on unit.
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-04-002-__AV/StateOfWarAnnihilation.zip
 02-04-002-__AV
 Alpha
