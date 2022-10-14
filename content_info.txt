@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-06-002-__AV/StateOfWarAnnihilation.zip
+02-06-002-__AV
+Alpha
+-Game: SMFs can now move around, repair, attack, upgrade.\n-Game/Fix: Reselecting unit didn't change top-right panel\n-Game: Ortographic (2D-style) camera is now better controllable\n-Game: Smooth zooming for both cameras.\n-Game: Camera movement is now limited. You can't fly with it away from map.\n-Game UI: Air force buttons now have team color.\n-Game: Anti-air turrets are now targetting enemy SMFs.\n-Man menu: Fixed, where Graphics and Audio settings wouldn't apply sometimes.
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-05-002-__AV/StateOfWarAnnihilation.zip
 02-05-002-__AV
 Alpha
