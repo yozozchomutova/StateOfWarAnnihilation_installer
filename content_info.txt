@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-07-002-__AV/StateOfWarAnnihilation.zip
+02-07-002-__AV
+Alpha
+-Editor/Fix: New saved levels wouldn't load again due to 1 command center error.\n-Game/Fix: Steppers had retarded head rotations ingame\n-Game/Fix: Some anti-air turrets had wrong rotations (targeting enemy)\n-Game/Fix: No more SMF self destruction!\n-Game/Fix: You were able to play as white team ingame\n-Game/Fix: You were able to controll enemy units\n-Game/Fix: Speeding up time, wouldn't speed up destroying/repairing/upgrading.\n-Game: Anti-Aircraft stepper and Anti-Aircraft tank joins the combat\n-Game: With [1-5] keys you select tower to build. With holding [F] or [L-Alt] and pressing [1-5], you will select air force.\n**-Game: You can now call Jets, Destroyers, Cyclones, Carrybuses and Debrises.**
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-06-002-__AV/StateOfWarAnnihilation.zip
 02-06-002-__AV
 Alpha
