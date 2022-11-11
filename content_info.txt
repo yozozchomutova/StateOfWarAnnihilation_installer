@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-08-002-__AV/StateOfWarAnnihilation.zip
+02-08-002-__AV
+Alpha
+-Game: Some air forces are now hitable.\n-Game: Air forces have smoother movements.\n-Game: Carrybuses can now spawn new units.\n-Game: Destroyers now have doubled amount of bombs.\n-Game: Debris has now more variations and feels more like falling meteor.\n-Game: LMB to adjust bomb targets. (currently works only for Jets - select between: 'huge damage in center' x 'medium damage around')\n-Game/Fix: Warping time would ruin some air force weapon physics... (which still needs some fixes)\n-Game/Fix: Air force buttons didn't do anything.
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-07-002-__AV/StateOfWarAnnihilation.zip
 02-07-002-__AV
 Alpha
