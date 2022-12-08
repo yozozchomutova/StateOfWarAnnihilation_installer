@@ -13,6 +13,13 @@
 
 GR
 1
+https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-09-002-__AV/StateOfWarAnnihilation.zip
+02-09-002-__AV
+Alpha
+-Game: You can now select multiple units. (Only ground and ally units)\n-Game: You can now move tanks around map\n-Game: All selected/hovered units now display their health above them...\n-Game: Tonk 1,2,3 joins combat.\n-Game: In all 4 unit factories you can now place flags, whereas units will be sent right after they are produced.\n-> Press **[R]** to set flag on specific position.\n-Game: All 4 unit factories are now producing units and automatically sending them to selected destination.\n-Game: Energy -> boosts navigatirs and tank factories...\n-Christmas: It' s snowing!\n-Editor: *Navigations* settings -> Used to preview/edit areas, where ground units can move or where player can place turret.\n-Fix: SMF couldn't upgrade navigators.\n-To play new version, you have first convert it into newer version in level editor...
+
+GR
+1
 https://github.com/yozozchomutova/StateOfWarAnnihilation/releases/download/02-08-002-__AV/StateOfWarAnnihilation.zip
 02-08-002-__AV
 Alpha
