@@ -1,6 +1,9 @@
 # StateOfWar: Annihilation Installer
 Software for installing/managing State of War: Annihilation. 
 
+# ARCHIVED !
+This repository is old & archived! See https://github.com/yozozchomutova/StateOfWarAnnihilation_Manager
+
 # Open Source
 Project is open source, free to copy/inspire/doWhateverYouWant. Great inspiration, when making installer for any files that are open source on github. (Or any other URL)
 
